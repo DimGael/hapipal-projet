@@ -10,8 +10,9 @@
     "test": "test"
   },
   "scripts": {
+    "knex": "knex",
     "start": "node server",
-    "test": "lab -a code -I 'core,__core-js_shared__' -L",
+    "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -19,6 +20,11 @@
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
     "schmervice": "^1.1.0"
+    "objection": "1.x.x",
+    "schwifty": "4.x.x"
+  },
+  "peerDependencies": {
+    "knex": "0.16.x"
   },
   "devDependencies": {
     "code": "5.x.x",
@@ -31,10 +37,13 @@
     "hapi": "18.x.x",
     "hapi-swagger": "9.x.x",
     "hpal": "^1.3.0",
-    "hpal-debug": "1.x.x",
     "inert": "5.x.x",
+    "vision": "5.x.x",
+    "hoek": "6.x.x",
+    "hpal-debug": "1.x.x",
+    "knex": "0.16.x",
     "lab": "18.x.x",
+    "sqlite3": "4.x.x",
     "toys": "2.x.x",
-    "vision": "5.x.x"
   }
 }
