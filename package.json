@@ -19,7 +19,7 @@
     "boom": "7.x.x",
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
-    "schmervice": "^1.1.0"
+    "schmervice": "^1.1.0",
     "objection": "1.x.x",
     "schwifty": "4.x.x"
   },
@@ -34,16 +34,16 @@
     "eslint-config-hapi": "12.x.x",
     "eslint-plugin-hapi": "4.x.x",
     "glue": "5.x.x",
-    "hapi": "18.x.x",
+    "hapi": "^18.1.0",
     "hapi-swagger": "9.x.x",
-    "hpal": "^1.3.0",
-    "inert": "5.x.x",
-    "vision": "5.x.x",
     "hoek": "6.x.x",
+    "hpal": "^1.3.0",
     "hpal-debug": "1.x.x",
+    "inert": "5.x.x",
     "knex": "0.16.x",
     "lab": "18.x.x",
     "sqlite3": "4.x.x",
     "toys": "2.x.x",
+    "vision": "5.x.x"
   }
 }
