@@ -19,8 +19,9 @@
     "boom": "7.x.x",
     "haute-couture": "3.x.x",
     "joi": "14.x.x",
-    "schmervice": "^1.1.0",
     "objection": "1.x.x",
+    "pg": "^7.8.0",
+    "schmervice": "^1.1.0",
     "schwifty": "4.x.x"
   },
   "peerDependencies": {

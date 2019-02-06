@@ -51,13 +51,13 @@ module.exports = new Confidence.Store({
                     $base: {
                         migrateOnStart: true,
                         knex: {
-                            client: 'sqlite3',
-                            useNullAsDefault: true,         // Suggested for sqlite3
-                            pool: {
-                                idleTimeoutMillis: Infinity // Handles knex v0.12/0.13 misconfiguration when using sqlite3 (tgriesser/knex#1701)
-                            },
+                            client: 'pg',
                             connection: {
-                                filename: ':memory:'
+                                host     : process.env.POSTGRES_HOST || '127.0.0.1',
+                                port     : process.env.POSTGRES_PORT || 5432 ,
+                                user     : process.env.POSTGRES_USER || 'hapi',
+                                password : process.env.POSTGRES_PASSWORD || 'hapi',
+                                database : process.env.POSTGRES_DATABASE || 'unilim'
                             }
                         }
                     },
