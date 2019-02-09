@@ -14,8 +14,10 @@
     "start": "node server",
     "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
     "lint": "eslint .",
+    
     "docker:start": "docker-compose up -d && npm start",
-    "docker:stop": "docker-compose down"
+    "docker:stop": "docker-compose down",
+    "docker:postgres": "docker-compose up -d postgres && docker exec -it postgres_hapi bash"
   },
   "dependencies": {
     "boom": "7.x.x",
