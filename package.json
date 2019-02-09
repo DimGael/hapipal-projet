@@ -13,7 +13,9 @@
     "knex": "knex",
     "start": "node server",
     "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "docker:start": "docker-compose up -d && npm start",
+    "docker:stop": "docker-compose down"
   },
   "dependencies": {
     "boom": "7.x.x",
