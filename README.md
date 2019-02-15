@@ -2,12 +2,14 @@
 
 ## Démarrer l'application
 Exécuter la commande suivante pour démarrer les conteneurs docker puis démarrer l'application
+
 `npm run docker:start`
 
 OU
 
-`docker-compose up -d`
-`npm start`
+1. `docker-compose up -d`
+
+2. `npm start`
 
 ## Détails
 
