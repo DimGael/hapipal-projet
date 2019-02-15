@@ -24,6 +24,7 @@
     "haute-couture": "^3.3.0",
     "joi": "14.x.x",
     "mailgen": "^2.0.7",
+    "nodemailer": "^5.1.1",
     "objection": "1.x.x",
     "objection-password": "^2.0.0",
     "pg": "^7.8.0",
