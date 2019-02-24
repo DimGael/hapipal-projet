@@ -12,6 +12,7 @@
   "scripts": {
     "knex": "knex",
     "start": "node server",
+    "stop" : "npm run docker:stop",
     "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
     "lint": "eslint .",
     "docker:start": "docker-compose up -d && npm start",
