@@ -19,4 +19,4 @@ Base de données utilisée : PostgreSQL [fichier docker utilisé](docker-compose
 Fichier de config Schwifty : [fichier manifest.js](server/manifest.js#L47)
 
 ### Version Node
-Version de NodeJs utilisée : 8.13 [release notes](https://nodejs.org/en/blog/release/v0.8.13/)
+Version de NodeJs utilisée : 8.14 [release notes](https://nodejs.org/en/blog/release/v8.14.0/)
